@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-      "X-Author": "lokalin"
+      "X-Author": "lokalin",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }
