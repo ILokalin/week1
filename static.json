@@ -16,6 +16,13 @@
       "Content-type": "text/plain; charset=UTF-8",
       "Access-Control-Allow-Credentials": "true",
       "Access-Control-Allow-Originn": "*",
+      "Access-Control-Allow-Headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,is-manager,return-all-platforms",
+      "X-Release": "2.20"
+    },
+    "/json/": {
+      "Content-type": "application/json",
+      "Access-Control-Allow-Credentials": "true",
+      "Access-Control-Allow-Originn": "*",
       "X-Release": "2.20"
     }
   }
