@@ -13,7 +13,7 @@
       "Content-type": "text/plain; charset=UTF-8"
     },
     "/test/": {
-      "Content-type": "application/vnd.api+json",
+      "Content-type": "text/plain; charset=UTF-8",
       "X-Release": "2.20"
     }
   }
