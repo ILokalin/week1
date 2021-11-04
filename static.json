@@ -14,6 +14,7 @@
     },
     "/test/": {
       "Content-type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Credentials": "true",
       "X-Release": "2.20"
     }
   }
