@@ -1,0 +1,17 @@
+<input id="inp" type="text">
+<button id="bt">click me</button>
+<script>
+  const btn = document.querySelector('#bt');
+  const inputField = document.querySelector('#inp');
+
+  const fetch = () => {
+    fetch(inputField.value)
+      .then(resp => resp.text())
+      .then(text => {
+        inputField.value = text;
+      })
+    btn.removeEventListener('click', ferch);
+  }
+
+  btn.addEventListener('click', fetch)
+</script>
