@@ -4,14 +4,13 @@
   const btn = document.querySelector('#bt');
   const inputField = document.querySelector('#inp');
 
-  const fetch = () => {
+  const onClick = () => {
     fetch(inputField.value)
       .then(resp => resp.text())
       .then(text => {
         inputField.value = text;
       })
-    btn.removeEventListener('click', ferch);
   }
 
-  btn.addEventListener('click', fetch)
+  btn.addEventListener('click', onClick)
 </script>
